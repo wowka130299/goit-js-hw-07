@@ -1,0 +1,44 @@
+ #boxes {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .box {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      background-color: #000;
+  }
+
+input {
+    border: 1px solid #808080;
+    padding: 8px 54px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+width: 120px;
+height: 40px;
+padding: 8px 16px;
+border-radius: 8px;
+background: #4e75ff;
+border: none;
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+font-weight: 500;
+}
+
+#controls {
+    display: flex;
+    gap: 16px;
+}
+
+#controls button:last-child{
+    background: #ff4e4e;;
+}
